@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+          font-family: Arial, sans-serif;
+    }
+    .container{
+        height: 100vh;
+        width: 100vw;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+
+    }
+   
+    .part1{
+        height: 300px;
+        width: 400px;
+        /* background-color: blue; */
+    }
+   
+
+    
+    .part2{
+        height: 400px;
+        width: 400px;
+        /* background-color: wheat; */
+        border: 2px solid black;
+        border-radius: 10px;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* flex-basis: 10px;  */
+         box-shadow: 0 0 15px rgba(0,0,15px,gray);
+          gap: 40px;
+        padding: 20px 30px;
+
+        
+    }
+  .box1 input{
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.box2{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(70, 70, 254);
+    color: white;
+    border-radius: 6px;
+
+
+
+}
+.box2:hover{
+    background-color: rgb(73, 136, 246) ;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+
+}
+hr{
+    margin: 20px;
+    color: gray;
+}
+.box3{
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(45, 245, 45);
+    color: white;
+    width: 100%;
+    text-decoration: none;
+
+}
+.box3:hover{
+    background-color:rgb(50, 300, 50) ;
+}
+.line{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 15px;
+} 
+ </style>
+   
+</head>
+<body>
+    <div class="container">
+
+        <div class="part1">
+            <h1><strong style="color: blue; font-size: 50px;">facebook</strong></h1>
+            <p style="color: black;">Facebook helps you connect and share with the people in your life</p> 
+            
+</div>
+<div class="part2"> 
+  
+  
+       <div class="box1">
+        <input type="text" placeholder="Email address or phone number">
+        <input type="password" placeholder="Password">
+        <button class="box2">Log In</button>
+        <a href="#">Forgotten password?</a>
+        <hr>
+        <button class="box3">Create new account</button>
+      </div>
+      <p class="line">Create a Page For a celebrity,brand or business </p>
+</div> 
+
+    </div>
+    
+</body
+</html>
